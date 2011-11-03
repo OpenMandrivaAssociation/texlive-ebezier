@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/ebezier
+# catalog-date 2009-01-30 10:13:19 +0100
+# catalog-license lppl
+# catalog-version 4
 Name:		texlive-ebezier
 Version:	4
 Release:	1
@@ -44,6 +50,7 @@ lenghts are part of this package.
 #- source
 %doc %{_texmfdistdir}/source/latex/ebezier/ebezier.dtx
 %doc %{_texmfdistdir}/source/latex/ebezier/ebezier.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ lenghts are part of this package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
