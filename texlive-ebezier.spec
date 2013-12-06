@@ -6,7 +6,7 @@
 # catalog-version 4
 Name:		texlive-ebezier
 Version:	4
-Release:	3
+Release:	4
 Summary:	Device independent picture environment enhancement
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ebezier
