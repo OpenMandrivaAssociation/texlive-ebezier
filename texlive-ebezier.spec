@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Device independent picture environment enhancement
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ebezier
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ebezier
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ebezier.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ebezier.doc.r%{version}.tar.xz
