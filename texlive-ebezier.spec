@@ -1,6 +1,6 @@
 Name:		texlive-ebezier
-Version:	15878
-Release:	2
+Version:	76924
+Release:	1
 Summary:	Device independent picture environment enhancement
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ebezier
